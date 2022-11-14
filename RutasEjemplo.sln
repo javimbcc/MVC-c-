@@ -5,6 +5,8 @@ VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RutasEjemplo", "RutasEjemplo\RutasEjemplo.csproj", "{1891BBB0-9746-4E4B-A9CF-51C28DC3CBFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RUTASEJEMPLO_DAL", "RUTASEJEMPLO_DAL\RUTASEJEMPLO_DAL.csproj", "{D3CF5F5E-3C58-4C1A-9C18-9AAD29ED7366}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{1891BBB0-9746-4E4B-A9CF-51C28DC3CBFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1891BBB0-9746-4E4B-A9CF-51C28DC3CBFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1891BBB0-9746-4E4B-A9CF-51C28DC3CBFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3CF5F5E-3C58-4C1A-9C18-9AAD29ED7366}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3CF5F5E-3C58-4C1A-9C18-9AAD29ED7366}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3CF5F5E-3C58-4C1A-9C18-9AAD29ED7366}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3CF5F5E-3C58-4C1A-9C18-9AAD29ED7366}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

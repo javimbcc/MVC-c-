@@ -1,0 +1,14 @@
+C:\Users\javi\source\repos\RutasEjemplo\RUTASEJEMPLO_DAL\bin\Debug\net6.0\RUTASEJEMPLO_DAL.deps.json
+C:\Users\javi\source\repos\RutasEjemplo\RUTASEJEMPLO_DAL\bin\Debug\net6.0\RUTASEJEMPLO_DAL.runtimeconfig.json
+C:\Users\javi\source\repos\RutasEjemplo\RUTASEJEMPLO_DAL\bin\Debug\net6.0\RUTASEJEMPLO_DAL.dll
+C:\Users\javi\source\repos\RutasEjemplo\RUTASEJEMPLO_DAL\bin\Debug\net6.0\RUTASEJEMPLO_DAL.pdb
+C:\Users\javi\source\repos\RutasEjemplo\RUTASEJEMPLO_DAL\obj\Debug\net6.0\RUTASEJEMPLO_DAL.csproj.AssemblyReference.cache
+C:\Users\javi\source\repos\RutasEjemplo\RUTASEJEMPLO_DAL\obj\Debug\net6.0\RUTASEJEMPLO_DAL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\javi\source\repos\RutasEjemplo\RUTASEJEMPLO_DAL\obj\Debug\net6.0\RUTASEJEMPLO_DAL.AssemblyInfoInputs.cache
+C:\Users\javi\source\repos\RutasEjemplo\RUTASEJEMPLO_DAL\obj\Debug\net6.0\RUTASEJEMPLO_DAL.AssemblyInfo.cs
+C:\Users\javi\source\repos\RutasEjemplo\RUTASEJEMPLO_DAL\obj\Debug\net6.0\RUTASEJEMPLO_DAL.csproj.CoreCompileInputs.cache
+C:\Users\javi\source\repos\RutasEjemplo\RUTASEJEMPLO_DAL\obj\Debug\net6.0\RUTASEJEMPLO_DAL.dll
+C:\Users\javi\source\repos\RutasEjemplo\RUTASEJEMPLO_DAL\obj\Debug\net6.0\refint\RUTASEJEMPLO_DAL.dll
+C:\Users\javi\source\repos\RutasEjemplo\RUTASEJEMPLO_DAL\obj\Debug\net6.0\RUTASEJEMPLO_DAL.pdb
+C:\Users\javi\source\repos\RutasEjemplo\RUTASEJEMPLO_DAL\obj\Debug\net6.0\RUTASEJEMPLO_DAL.genruntimeconfig.cache
+C:\Users\javi\source\repos\RutasEjemplo\RUTASEJEMPLO_DAL\obj\Debug\net6.0\ref\RUTASEJEMPLO_DAL.dll
