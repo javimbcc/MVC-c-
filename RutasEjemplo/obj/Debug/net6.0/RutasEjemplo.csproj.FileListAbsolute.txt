@@ -49,3 +49,4 @@ C:\Users\javi\source\repos\RutasEjemplo\RutasEjemplo\bin\Debug\net6.0\runtimes\b
 C:\Users\javi\source\repos\RutasEjemplo\RutasEjemplo\bin\Debug\net6.0\RUTASEJEMPLO_DAL.dll
 C:\Users\javi\source\repos\RutasEjemplo\RutasEjemplo\bin\Debug\net6.0\RUTASEJEMPLO_DAL.pdb
 C:\Users\javi\source\repos\RutasEjemplo\RutasEjemplo\obj\Debug\net6.0\RutasEjemplo.csproj.CopyComplete
+C:\Users\javi\source\repos\RutasEjemplo\RutasEjemplo\bin\Debug\net6.0\System.Security.Permissions.dll
