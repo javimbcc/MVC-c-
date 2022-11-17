@@ -5,23 +5,38 @@ using System.Security.Cryptography.X509Certificates;
 
 namespace RutasEjemplo.Controllers
 {
+
     public class HomeController : Controller
     {
-        //private readonly ILogger<HomeController> _logger;
 
-        //public HomeController(ILogger<HomeController> logger)
-        //{
-        //    _logger = logger;
-        //}
+        private readonly ILogger<HomeController> _logger;
+
+        public HomeController(ILogger<HomeController> logger)
+        {
+            _logger = logger;
+        }
+
+        public const string SessionKeyName = "_Name";
+
+
+        
 
         public IActionResult Index()
         {
             return View();
         }
+
         
 
         public IActionResult ListaAlumnos()
         {
+            if (string.IsNullOrEmpty(HttpContext.Session.GetString(SessionKeyName)))
+            {
+                HttpContext.Session.SetString(SessionKeyName, "Javier");
+            }
+           
+
+
 
             List<String> Alumnos = new List<String>();
             Alumnos.Add("Javi");
@@ -31,20 +46,19 @@ namespace RutasEjemplo.Controllers
             Alumnos.Add("Mario");
             //ViewBag.ListaAlumnos = Alumnos;
             //TempData["ListaAlumnos"] = Alumnos;
-            Session["ListaAlumnos"] = Alumnos;
             //ViewData["ListaAlumnos"] = Alumnos;
-            return View(Alumnos);
+            return View();
         }
         [HttpPost]
-        public IActionResult ListaAlumnos(string selAlumno)
-        {
-            ViewBag.Nombre = selAlumno;
-            //List<String> Alumnos = ViewBag.ListaAlumnos;
-            //List<String> Alumnos = (List<string>)TempData["ListaAlumnos"];
-            List<String> Alumnos = (List<string>)Session["ListaAlumnos"];
-            //List<String> Alumnos = (List<string>)ViewData["ListaAlumnos"];
-            return View(Alumnos);
-        }
+        //public IActionResult ListaAlumnos(string selAlumno)
+        //{
+        //    ViewBag.Nombre = selAlumno;
+        //    //List<String> Alumnos = ViewBag.ListaAlumnos;
+        //    //List<String> Alumnos = (List<string>)TempData["ListaAlumnos"];
+        //    //List<String> Alumnos = (List<string>)Session["ListaAlumnos"];
+        //    //List<String> Alumnos = (List<string>)ViewData["ListaAlumnos"];
+        //    return View(Alumnos);
+        //}
 
 
 

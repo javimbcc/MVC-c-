@@ -7,17 +7,7 @@
 
 @using (Html.BeginForm())
 {
-    <select name="selAlumno">
-        @foreach(string user in Model) {
-            <option>@user</option>
-        }
-    </select>
-    <br />
-    <br />
-    if (ViewBag.Nombre !=null) {
-        <h4 style="color:green">Usuario Seleccionado: @ViewBag.Nombre</h4>
-    }
-    <br />
-    <br />
-    <button type="submit">Seleccionar Usuarios</button>
+    @Context.Session.GetString("_Name");
+    
+
 }
